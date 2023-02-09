@@ -1,0 +1,183 @@
+/* Path: style.css */
+
+@media only screen and (max-width: 550px) {
+    section{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .rightSection{
+        border-left-style: none;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.navbar ul{
+    font-size: large;
+    list-style-type: none;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    padding: 0px;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    border-top-style: solid;
+    border-top-color: blueviolet;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: gray;
+}
+
+.navbar li{
+    float: left;
+    text-align: center;
+    margin-right: 0px;
+}
+
+.navbar li a{
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover{
+    color: purple;
+}
+
+
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.picture{
+    width: auto;
+    height: 500px;
+    padding: 30px;
+}
+
+
+section{
+    display: flex;
+}
+
+.picture{
+    text-align: center;
+}
+
+#title{
+    font:100% arial;
+    font-size: 30px;
+    color: gray;
+    margin-bottom: 10px ;
+    
+}
+#job{
+    font-size: large;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+#email{
+    font-size: smaller;
+    list-style-type: none;
+    color: blue;
+    text-decoration: none;
+    margin-top: 0;
+}
+
+.rightSection{
+    display: flex;
+    flex: 2;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: gray;
+    padding-left: 40px;
+    font: 100% arial;
+}
+
+.leftSection{
+    display: flex;
+    padding-left: 20px;
+    justify-content: center;
+    flex: 1;
+}
+
+.footer{
+    margin-top: 10px;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top-style: solid;
+    border-top-color: gray;
+    border-top-width: 1px;
+}
+
+.skillslist ul{
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0;
+    font-weight: bold;
+}
+
+.skillslist li{
+    margin-bottom: 5px;
+}
+
+progress{
+    width: 200%;   
+}
+
+#table1{
+    margin-bottom: 60px;
+
+}
+
+#table2{
+    margin-bottom: 60px;
+}
+
+#table1 td, #table2 td{
+    padding-right: 50px;
+}
+
+
+#secondcol{
+    padding-left: 20px;
+}
+
+.table{
+    margin-bottom: 60px;
+}
+
+.tableheader{
+    font-weight: bold;
+    font-size: large;
+}
+.interestslist{
+    list-style-type: none;
+}
+
+.interestslist li{
+    margin-bottom: 20px;
+}
+.interestslist li::before{
+    content: "-";
+    padding-right: 10px;
+}
+
+#creds{
+    color: gray;
+    padding-top: 30px;
+    margin-bottom: 0;
+    font-style: helvetica;
+    text-decoration: none;
+}
+
+
+
+
