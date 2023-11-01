@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/acevirtuoso.github.io/static/css/main.bc16fcda.css",
+    "main.js": "/acevirtuoso.github.io/static/js/main.2f215185.js",
+    "static/media/CV.pdf": "/acevirtuoso.github.io/static/media/CV.3b9fc2aecf44732fe7a5.pdf",
+    "static/media/MyPhoto2.png": "/acevirtuoso.github.io/static/media/MyPhoto2.43cdcdd096e067e8997f.png",
+    "static/media/MyPhoto.jpg": "/acevirtuoso.github.io/static/media/MyPhoto.c435c6f4b281aa6fff50.jpg",
+    "static/media/Sortingvis.png": "/acevirtuoso.github.io/static/media/Sortingvis.77ec15cee50af2b674e6.png",
+    "index.html": "/acevirtuoso.github.io/index.html",
+    "main.bc16fcda.css.map": "/acevirtuoso.github.io/static/css/main.bc16fcda.css.map",
+    "main.2f215185.js.map": "/acevirtuoso.github.io/static/js/main.2f215185.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc16fcda.css",
+    "static/js/main.2f215185.js"
+  ]
+}
