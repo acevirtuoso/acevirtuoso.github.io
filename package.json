@@ -1,6 +1,6 @@
 {
   "name": "personal-website",
-  "homepage" : "https://acevirtuoso.github.io/",
+  "homepage" : "https://acevirtuoso/acevirtuoso.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
