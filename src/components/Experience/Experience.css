@@ -1,0 +1,54 @@
+#Experience{
+    height: fit-content !important;
+}
+
+.project img{
+    /* display: grid !important; */
+    overflow: hidden;
+    border-radius: 1.5rem;
+    width: 100%;
+    object-fit:fill;
+    align-self: center !important;
+    /* margin-left: 17%; */
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* repeat(3, 1fr): This is a shorthand function for repeating a pattern of columns. In this case, it will create three columns, and each column will take up an equal amount of available space in the grid.
+    The unit 1fr stands for "fractional unit" and is a flexible unit that distributes available space evenly among the columns. It allows the columns to occupy an equal portion of the available width, which is useful for creating responsive grid layouts. */
+    gap: 2.5rem;
+    margin: 10vh auto !important
+    /* margin-left: 18% !important; */
+    
+}
+
+.project{
+    background: #1d1d48;
+    border-radius: 10%;
+    padding: 10%;
+    transition: var(--transition);
+    border: 0.1px solid;
+    border-color: #1d1d48;
+    text-align: center;
+    
+    /* align-items: center !important; */
+    /* justify-content: center; */
+    /* margin-left: auto; */
+}
+
+
+.project:hover{
+    border-color: rgba(255, 255, 255, 0.326);
+    background-color: transparent;
+}
+
+.project_btns{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+/* .project_image{
+    border-radius: 1.5rem;
+
+} */

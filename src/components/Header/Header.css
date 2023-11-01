@@ -1,0 +1,156 @@
+#filler{
+    margin-left: 3px;
+    width: 30vh;
+}
+
+.wrapper{
+    padding-top:5%;
+}
+#download-button{
+    width: 30vh;
+
+}
+
+#job-description{
+    margin-bottom: .6em;
+}
+
+/* img{
+    max-width: 30px;
+} */
+
+header{
+    height: 100%;
+    padding-top: 1rem;
+    overflow: hidden;
+}
+
+.header_container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+
+.headerbuttons{
+    display: flex;
+    gap: 1.2em;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+
+.Header_socials{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: .7em;
+    bottom: 3rem;
+    position: absolute;
+    left: 0;
+    margin-left: 6%;
+    /* margin-top: 7%; */
+    /* margin-bottom: 14%; */
+    border-radius: 4rem;
+    /* padding: 2%; */
+    /* width: 3.5vh; */
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.Header_socials a{
+    font-size: x-large;
+}
+
+.Header_socials:hover{
+    background: radial-gradient(var(--color-primary), transparent);
+    transition: var(--transition);
+}
+
+.Header_socials:hover > a{
+    color: rgb(7, 0, 0) !important;
+    transition: var(--transition);
+}
+
+.Header_socials:hover > a:hover{
+    color: var(--color-white) !important;
+}
+
+.Header_socials::after:hover{
+    background: var(--color-black) !important;
+}
+
+.Header_socials::after{
+    content: '';
+    width: 1px;
+    height: 3rem;
+    background: var(--color-primary);
+}
+
+
+/* .header_img{
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+} */
+
+.header_img img{
+    z-index: 1;
+    border-radius: 7rem;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 2%;
+    /* margin-top: 20px; */
+    width: 40vh;
+    height: 80vh;
+    /* overflow: hidden; */
+    margin-left: calc(50% - 20vh);
+    position: relative;
+    background: linear-gradient(var(--color-primary), transparent);
+
+}
+
+
+
+.ScrollDown{
+    position: absolute;
+    right: -2.3rem;
+    bottom: 3rem;
+    transform: rotate(90deg);
+    text-orientation: upright;
+}
+
+
+/* @media screen and (max-width: 1024px) {
+    header{
+        height: 67vh;
+    }
+    
+} */
+
+
+@media screen and (max-width: 660px) {
+    .Header_socials, .ScrollDown{
+        display: none;
+    }
+    .header_container{
+        margin: 2%;
+    }
+    .wrapper{
+        height: 0;
+    }
+    header{
+        padding-top:0;
+        height: 100% !important;
+    }
+
+    /* .header_img{
+       width: 20vh;
+    } */
+} 

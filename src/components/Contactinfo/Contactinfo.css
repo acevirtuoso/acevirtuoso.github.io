@@ -1,0 +1,11 @@
+#Contact{
+    height: 120vh;
+}
+
+.contact__option{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 3rem;
+}

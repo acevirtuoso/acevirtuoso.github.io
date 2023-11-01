@@ -1,0 +1,20 @@
+/* .about_content{
+    background: red;
+} */
+
+.interests{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    row-gap: 3rem;
+    /* background: var(--color-primary-var); */
+    border-radius: 3rem;
+    padding: 3%;
+    transition: var(--transition);
+    margin: 5%;
+    margin-top: 0%;
+    color: var(--color-primary);
+}
+#filler{
+    margin-top: 2rem;
+}
