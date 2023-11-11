@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.bc16fcda.css",
-    "main.js": "/static/js/main.056bb1fb.js",
+    "main.js": "/static/js/main.eb394dcc.js",
     "static/media/CV.pdf": "/static/media/CV.3b9fc2aecf44732fe7a5.pdf",
     "static/media/MyPhoto2.png": "/static/media/MyPhoto2.43cdcdd096e067e8997f.png",
     "static/media/MyPhoto.jpg": "/static/media/MyPhoto.c435c6f4b281aa6fff50.jpg",
+    "static/media/Aly_Mohamed_resume.pdf": "/static/media/Aly_Mohamed_resume.8f88cac1558de1bba082.pdf",
     "static/media/Sortingvis.png": "/static/media/Sortingvis.77ec15cee50af2b674e6.png",
     "index.html": "/index.html",
     "main.bc16fcda.css.map": "/static/css/main.bc16fcda.css.map",
-    "main.056bb1fb.js.map": "/static/js/main.056bb1fb.js.map"
+    "main.eb394dcc.js.map": "/static/js/main.eb394dcc.js.map"
   },
   "entrypoints": [
     "static/css/main.bc16fcda.css",
-    "static/js/main.056bb1fb.js"
+    "static/js/main.eb394dcc.js"
   ]
 }
