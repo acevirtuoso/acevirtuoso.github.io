@@ -1,20 +1,230 @@
-/* .about_content{
-    background: red;
-} */
-
-.interests{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5rem;
-    row-gap: 3rem;
-    /* background: var(--color-primary-var); */
-    border-radius: 3rem;
-    padding: 3%;
-    transition: var(--transition);
-    margin: 5%;
-    margin-top: 0%;
-    color: var(--color-primary);
-}
-#filler{
+About.css
+/* 
+#About {
+    position: relative;
+    background: var(--color-bg);
+    padding: 4rem 0;
+  }
+  
+  .wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .stars {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: var(--color-primary);
+    animation: animStar 10s linear infinite;
+  }
+  
+  #stars {
+    left: 25%;
+  }
+  
+  #stars2 {
+    left: 50%;
+  }
+  
+  #stars3 {
+    left: 75%;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #filler {
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--color-light);
+    margin-bottom: 2rem;
+  }
+  
+  .about_img_container {
     margin-top: 2rem;
-}
+  }
+  
+  .about_img {
+    width: 200px;
+    height: 200px; 
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .about_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .about__content {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .about__cards {
+    margin-top: 1.5rem;
+  }
+  
+  .Education__icon {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    color: var(--color-primary);
+  }
+  
+  .interests {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .indiv_interest {
+    background: var(--color-primary);
+    color: var(--color-bg);
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 0.3rem;
+  }
+  
+  .indiv_interest h4 {
+    margin: 0;
+  } */
+
+
+  /* About.css */
+
+#About {
+    position: relative;
+    /* background: var(--color-bg); */
+    padding: 4rem 0;
+    overflow: hidden;
+  }
+  
+  /* .wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  } */
+  
+  /* .stars {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    animation: animStar 10s linear infinite;
+  } */
+  
+  /* #stars {
+    left: 25%;
+  }
+  
+  #stars2 {
+    left: 50%;
+  }
+  
+  #stars3 {
+    left: 75%;
+  } */
+  
+  .container_about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem;
+  }
+  
+  #filler {
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--color-light);
+    margin-bottom: 2rem;
+  }
+  
+  .about_img_container {
+    margin-top: 2rem;
+  }
+  
+  .about_img {
+    width: 200px;
+    height: 200px; 
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  }
+  
+  .about_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .about__content {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  h3 {
+    color: var(--color-primary);
+  }
+  
+  p {
+    color: var(--color-light);
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  .about__cards {
+    margin-top: 1.5rem;
+  }
+  
+  .Education__icon,
+  .Education__icon,
+  .Education__icon {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    color: var(--color-primary);
+  }
+  
+  .small-text {
+    font-size: 0.8rem;
+  }
+  
+  .interests {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .indiv_interest {
+    /* background: var(--color-primary); */
+    color: var(--color-bg);
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 0.3rem;
+  }
+  
+  .indiv_interest h4 {
+    margin: 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .about_img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  
+  

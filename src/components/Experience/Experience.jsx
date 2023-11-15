@@ -1,6 +1,10 @@
 import React from 'react'
 import './Experience.css'
 import Sortingvis from '../../assets/Sortingvis.png'
+import DataStruct from '../../assets/Data_structure.avif'
+import ASEC from '../../assets/ASEC_website.png'
+import obit_maker from '../../assets/Obit_maker.jpg'
+import CleanToGreen from '../../assets/CleanToGreen.png'
 
 const Experience = () => {
   return (
@@ -22,7 +26,7 @@ const Experience = () => {
 
         <article className="project">
           <div className="project_image">
-            <img src={Sortingvis} alt="Sorting visualizer"/>
+            <img src={DataStruct} alt="Data Structure"/>
           </div>
           <h3>Data structures</h3>
           <div className = "project_btns">
@@ -34,12 +38,12 @@ const Experience = () => {
 
         <article className="project">
           <div className="project_image">
-            <img src={Sortingvis} alt="Sorting visualizer"/>
+            <img src={ASEC} alt="Sorting visualizer"/>
           </div>
           <h3>ASEC website</h3>
           <div className = "project_btns">
-          <a href="https://github.com/acevirtuoso/ASEC-website" rel="noreferrer" className = "btn" target = "_blank">Github</a>
-          <a href="https://acevirtuoso.github.io/ASEC-website/" rel="noreferrer" className = "btn" target="_blank">Details</a>
+          <a href="https://www.asec2023.com" rel="noreferrer" className = "btn" target = "_blank">Visit Website</a>
+          {/* <a href="https://acevirtuoso.github.io/ASEC-website/" rel="noreferrer" className = "btn" target="_blank">Details</a> */}
           </div>
 
         </article>   
@@ -47,7 +51,7 @@ const Experience = () => {
 
         <article className="project">
           <div className="project_image">
-            <img src={Sortingvis} alt="Sorting visualizer"/>
+            <img src={obit_maker} alt="Sorting visualizer"/>
           </div>
           <h3>Obituary maker</h3>
           <div className = "project_btns">
@@ -59,11 +63,11 @@ const Experience = () => {
 
         <article className="project">
           <div className="project_image">
-            <img src={Sortingvis} alt="Sorting visualizer"/>
+            <img src={CleanToGreen} alt="Sorting visualizer"/>
           </div>
-          <h3>Stocks Viewer</h3>
+          <h3>Clean to green</h3>
           <div className = "project_btns">
-          <a href="https://github.com/acevirtuoso/Sorting-data-visualizer" rel="noreferrer" className = "btn" target = "_blank">Github</a>
+          <a href="https://github.com/FindlayMB/ThemProfessionalHaters" rel="noreferrer" className = "btn" target = "_blank">Github</a>
           <a href="https://acevirtuoso.github.io/Sorting-data-visualizer/" rel="noreferrer" className = "btn" target="_blank">Details</a>
           </div>
         </article>  
@@ -72,7 +76,7 @@ const Experience = () => {
           <div className="project_image">
             <img src={Sortingvis} alt="Sorting visualizer"/>
           </div>
-          <h3>Scheduler</h3>
+          <h3>Java Scheduler</h3>
           <div className = "project_btns">
           <a href="https://github.com/FindlayMB/ENSF-380-Final-Project" rel="noreferrer" className = "btn" target = "_blank">Github</a>
           <a href="https://FindlayMB.github.io/ENSF-380-Final-Project/" rel="noreferrer" className = "btn" target="_blank">Details</a>
