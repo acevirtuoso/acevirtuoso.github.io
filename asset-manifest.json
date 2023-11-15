@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.bc16fcda.css",
-    "main.js": "/static/js/main.eb394dcc.js",
+    "main.css": "/static/css/main.8c0bc623.css",
+    "main.js": "/static/js/main.9bae8898.js",
     "static/media/CV.pdf": "/static/media/CV.3b9fc2aecf44732fe7a5.pdf",
     "static/media/MyPhoto2.png": "/static/media/MyPhoto2.43cdcdd096e067e8997f.png",
+    "static/media/ASEC_website.png": "/static/media/ASEC_website.1c5cb80a52a1bcb92abd.png",
     "static/media/MyPhoto.jpg": "/static/media/MyPhoto.c435c6f4b281aa6fff50.jpg",
-    "static/media/Aly_Mohamed_resume.pdf": "/static/media/Aly_Mohamed_resume.8f88cac1558de1bba082.pdf",
+    "static/media/CleanToGreen.png": "/static/media/CleanToGreen.3f4aaa8d1b5513cd093c.png",
+    "static/media/Aly_Mohamed_resume.pdf": "/static/media/Aly_Mohamed_resume.7d60d51d9103b1aea870.pdf",
+    "static/media/Data_structure.avif": "/static/media/Data_structure.defe46e6085419a83abf.avif",
     "static/media/Sortingvis.png": "/static/media/Sortingvis.77ec15cee50af2b674e6.png",
+    "static/media/Obit_maker.jpg": "/static/media/Obit_maker.470e8bd4164e59ab2045.jpg",
     "index.html": "/index.html",
-    "main.bc16fcda.css.map": "/static/css/main.bc16fcda.css.map",
-    "main.eb394dcc.js.map": "/static/js/main.eb394dcc.js.map"
+    "main.8c0bc623.css.map": "/static/css/main.8c0bc623.css.map",
+    "main.9bae8898.js.map": "/static/js/main.9bae8898.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc16fcda.css",
-    "static/js/main.eb394dcc.js"
+    "static/css/main.8c0bc623.css",
+    "static/js/main.9bae8898.js"
   ]
 }
