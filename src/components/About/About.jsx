@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import MyPhoto from "../../assets/MyPhoto.jpg";
+import Experince from "../Experience/Experience";
 import { FaGraduationCap, FaLaptopCode } from "react-icons/fa";
 
 const About = () => {
@@ -40,7 +41,7 @@ const About = () => {
             <h5>
               <FaLaptopCode className="Education__icon" /> Skills
             </h5>
-            <small>
+            <small className ="subtext">
               Proficient in languages like Java, JavaScript, and Python. Experienced in software development, algorithms, and data structures.
             </small>
           </div>
@@ -49,12 +50,14 @@ const About = () => {
             <h5>
               <FaLaptopCode className="Education__icon" /> Projects
             </h5>
-            <small>
-              Actively engaged in meaningful projects, applying theoretical knowledge to real-world scenarios. Some projects include [mention a couple of projects or types of projects you've worked on].
+            <small className ="subtext">
+              Actively engaged in meaningful projects, applying theoretical knowledge to real-world scenarios. 
+              Some projects include an obituary maker, a sorting algorithm visualizer, and as well as a local community cleaning website.
+              <a href="#Experience"> Click here to learn more about my projects.</a>
             </small>
           </div>
 
-          <div className="interests">
+          {/* <div className="interests">
             <h3>Interests</h3>
             <article className="indiv_interest">
               <h4>Cybersecurity</h4>
@@ -68,7 +71,7 @@ const About = () => {
             <article className="indiv_interest">
               <h4>Medical Technology</h4>
             </article>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

@@ -38,7 +38,7 @@ const Experience = () => {
 
         <article className="project">
           <div className="project_image">
-            <img src={ASEC} alt="Sorting visualizer"/>
+            <img src={ASEC} alt="ASEC website"/>
           </div>
           <h3>ASEC website</h3>
           <div className = "project_btns">
@@ -82,6 +82,17 @@ const Experience = () => {
           <a href="https://FindlayMB.github.io/ENSF-380-Final-Project/" rel="noreferrer" className = "btn" target="_blank">Details</a>
           </div>
         </article> 
+
+        <article className="project">
+          <div className="project_image">
+            <img src={Sortingvis} alt="Sorting visualizer"/>
+          </div>
+          <h3>weather app</h3>
+          <div className = "project_btns">
+          <a href="https://github.com/acevirtuoso/Sorting-data-visualizer" rel="noreferrer" className = "btn" target = "_blank">Github</a>
+          <a href="https://acevirtuoso.github.io/Sorting-data-visualizer/" rel="noreferrer" className = "btn" target="_blank">Details</a>
+          </div>
+        </article>  
       </div>
     </section>
   )
