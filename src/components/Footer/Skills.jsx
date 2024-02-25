@@ -4,18 +4,22 @@ import { AiOutlineHtml5 } from "react-icons/ai";
 import { SiCss3, SiReactquery, SiPython } from "react-icons/si";
 import { TbBrandJavascript, TbBrandCpp } from "react-icons/tb";
 import { DiJava } from "react-icons/di";
-import {SiMicrosoftazure} from 'react-icons/si'
+import { SiMicrosoftazure } from "react-icons/si";
 
 const Footer = () => {
   return (
     <section id="Footer">
       {/* <h5> what languages can i use</h5> */}
-      
-      <div className="container">
+
+      <div id = "footer" className="container">
+        <div class="wrapper">
+          <div className="stars" id="stars"></div>
+          <div className="stars" id="stars2"></div>
+          <div className="stars" id="stars3"></div>
+        </div>
         <div className="text">
           <h3 id="lang_title">Languages</h3>
           <div className="experience">
-
             <article className="lang_atricle">
               <AiOutlineHtml5 className="icons" size={28} />
               <div>

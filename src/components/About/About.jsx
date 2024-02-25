@@ -24,7 +24,10 @@ const About = () => {
         <div className="about__content">
           <h3>Hello, I'm Aly Mohamed</h3>
           <p>
-            I am a dedicated third-year software engineering student at the University of Calgary, currently pursuing a Bachelor's degree. My academic journey has equipped me with a solid foundation in software development and problem-solving skills.
+            I am a dedicated third-year software engineering student at the
+            University of Calgary, currently pursuing a Bachelor's degree. My
+            academic journey has equipped me with a solid foundation in software
+            development and problem-solving skills.
           </p>
 
           <div className="about__cards">
@@ -41,8 +44,10 @@ const About = () => {
             <h5>
               <FaLaptopCode className="Education__icon" /> Skills
             </h5>
-            <small className ="subtext">
-              Proficient in languages like Java, JavaScript, and Python. Experienced in software development, algorithms, and data structures.
+            <small className="subtext">
+              Proficient in languages like Java, JavaScript, and Python.
+              Experienced in software development, algorithms, and data
+              structures.
             </small>
           </div>
 
@@ -50,10 +55,12 @@ const About = () => {
             <h5>
               <FaLaptopCode className="Education__icon" /> Projects
             </h5>
-            <small className ="subtext">
-              Actively engaged in meaningful projects, applying theoretical knowledge to real-world scenarios. 
-              Some projects include an obituary maker, a sorting algorithm visualizer, and as well as a local community cleaning website.
-              <a href="#Experience"> Click here to learn more about my projects.</a>
+            <small id = "problemchild" className="subtext">
+              Actively engaged in meaningful projects, applying theoretical
+              knowledge to real-world scenarios. Some projects include an
+              obituary maker, a sorting algorithm visualizer, and as well as a
+              local community cleaning website.
+              {/* <a href="#Experience"> Click here to learn more about my projects.</a> */}
             </small>
           </div>
 

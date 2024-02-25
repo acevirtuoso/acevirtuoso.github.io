@@ -38,7 +38,7 @@ const App = () => {
       <About />
       <Experience />
       <Footer />
-      <Contactinfo />
+      {/* <Contactinfo /> */}
 
       {/* <BrowserRouter>
     TESTING

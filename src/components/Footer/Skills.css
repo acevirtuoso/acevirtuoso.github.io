@@ -12,6 +12,9 @@
     color: var(--color-primary);
     background: var(--color-bg-var)
 }
+#footer{
+    height: 120vh;
+}
 
 /* .experience:hover{
     background: transparent;

@@ -2,10 +2,35 @@
     height: 120vh;
 }
 
-.contact__option{
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    justify-content: center;
+/* .contact__option{
+    text-align: center;
     margin-top: 3rem;
-}
+} */
+.contact__option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact__option h4 {
+    margin: 5px 10px 5px 0;
+  }
+  
+  .contact__option h5 {
+    margin: 0;
+    color: #888;
+  }
+  
+  .contact__option .btn {
+    margin-left: auto;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .contact__option .btn:hover {
+    background-color: #0056b3;
+  }
+  

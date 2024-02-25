@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contactinfo.css";
-import {MdOutlineEmail} from 'react-icons/md'
+import { MdOutlineEmail } from "react-icons/md";
 
 const Contactinfo = () => {
   return (
@@ -15,10 +15,18 @@ const Contactinfo = () => {
       <div className="container contact__container">
         <div className="contact__info">
           <article className="contact__option">
-            <MdOutlineEmail/>
+            <MdOutlineEmail />
             <h4>Email</h4>
             <h5>aly.mohamed@ucalgary.ca</h5>
-            <a href='mailto: aly.mohamed@ucalgary.ca' rel = "noreferrer" className='btn' target='_blank'>Send Email</a>
+            <div />
+            <a
+              href="mailto: aly.mohamed@ucalgary.ca"
+              rel="noreferrer"
+              className="btn"
+              target="_blank"
+            >
+              Send Email
+            </a>
           </article>
         </div>
       </div>
