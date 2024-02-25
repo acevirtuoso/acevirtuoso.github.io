@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7af18bcb.css",
-    "main.js": "/static/js/main.bc70d67b.js",
+    "main.css": "/static/css/main.8f3512d1.css",
+    "main.js": "/static/js/main.f2adb0d2.js",
     "static/media/CV.pdf": "/static/media/CV.3b9fc2aecf44732fe7a5.pdf",
     "static/media/MyPhoto2.png": "/static/media/MyPhoto2.43cdcdd096e067e8997f.png",
     "static/media/ASEC_website.png": "/static/media/ASEC_website.1c5cb80a52a1bcb92abd.png",
@@ -11,12 +11,13 @@
     "static/media/Data_structure.avif": "/static/media/Data_structure.defe46e6085419a83abf.avif",
     "static/media/Sortingvis.png": "/static/media/Sortingvis.77ec15cee50af2b674e6.png",
     "static/media/Obit_maker.jpg": "/static/media/Obit_maker.470e8bd4164e59ab2045.jpg",
+    "static/media/Fly-ght.png": "/static/media/Fly-ght.4ba450c07bab18581e66.png",
     "index.html": "/index.html",
-    "main.7af18bcb.css.map": "/static/css/main.7af18bcb.css.map",
-    "main.bc70d67b.js.map": "/static/js/main.bc70d67b.js.map"
+    "main.8f3512d1.css.map": "/static/css/main.8f3512d1.css.map",
+    "main.f2adb0d2.js.map": "/static/js/main.f2adb0d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.7af18bcb.css",
-    "static/js/main.bc70d67b.js"
+    "static/css/main.8f3512d1.css",
+    "static/js/main.f2adb0d2.js"
   ]
 }
